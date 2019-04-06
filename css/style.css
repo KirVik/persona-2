@@ -440,7 +440,12 @@ button:focus, button:active {
     .comparison-yellow, .preferences-red{
         width: 18%;
     }
+    .preferences-red{
+    margin-left: 30%;
+    }
 }
+
+
 @media screen and (max-width:320px) {
     
 }
