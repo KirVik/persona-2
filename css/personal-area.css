@@ -1,0 +1,56 @@
+.personal-area-aside{
+   
+}
+.personal-area-aside__link{
+    display: block;
+    margin-bottom: 30px;
+}
+.personal-area-aside__link_area:hover, 
+.personal-area-aside__link_personal-data:hover, 
+.personal-area-aside__link_basket:hover, 
+.personal-area-aside__link_orders:hover,
+.personal-area-aside__link_output:hover{
+    margin-left: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.catalolg-btn{
+    border: 5px solid #ffd5d5;
+    border-radius: 5px;
+    text-align: center;
+}
+.displey_none{
+    display: none;
+}
+.displey_bl{
+    display: block;
+}
+.footer{
+    padding: 10px 0;
+    background: #ffd5d5;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.footer-help, .footer-social__link{
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-help__link{
+    margin-right: 20px;
+}
+
+/* .footer-social__link{
+    justify-content: center;
+} */
+.footer-social__icon{
+    display: block;
+    margin-right: 8px;
+}
+.footer-social__icon:last-child, .footer-help__link:last-child{
+    margin-right: 0;
+}
+.footer-copyrights p{
+   text-align: center;
+   margin-bottom: 0;
+}

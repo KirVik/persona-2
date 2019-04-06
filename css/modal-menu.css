@@ -1,0 +1,51 @@
+/*----- Выпадающий список -----*/
+
+
+/* .drop-down__list {
+    color: #000;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    position: absolute;
+    left: 55%;
+    margin-left: -115px;
+    z-index: 9999;
+    box-shadow: 0 0 40px #000073;
+}
+
+.manicure-products__list_item {
+    margin-bottom: 10px;
+} */
+
+.manicure-products__link{
+    font-size: 14px;
+}
+.box-modal {
+    position: absolute;
+    top: 155px;
+    padding: 16px;
+    background: #fff;
+    color: #3c3c3c;
+    font: 14px/18px Arial, sans-serif;
+    
+    border-radius: 6px;
+}
+
+.box-modal_close {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 20px;
+    line-height: 15px;
+    color: #000;
+    cursor: pointer
+}
+#catalog-product{
+    left: 25%;
+}
+.arcticmodal-overlay{
+    background-color: none!important;
+    opacity: 0!important;
+}
+    

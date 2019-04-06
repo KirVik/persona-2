@@ -1,0 +1,107 @@
+/* фильтер */
+.form-group {
+    margin-bottom: 10px;
+}
+label {
+    margin-bottom: 0;
+    align-items: center;
+
+}
+input[type="checkbox"]{
+  border-radius: 20px;
+  border: 1px solid #000;
+ 
+}
+input[type="text"]{
+    border-width: 0;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    border: 1px solid #000;
+   
+  }
+  
+  .currency{
+      padding-left: 15px;
+      margin: 0;
+  }
+  .btn-filter{
+      background: none;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 12%;
+    height: 10%;
+    margin-left: 10px;
+}
+/* фильтер END */
+
+/* Ползунок */
+  .slider{
+    width: 80%;
+    height:4px;
+    background:#b6b6b6;
+    position:relative;
+    margin-top:25px;
+    margin-left:20px;
+  }
+  .slider .bar{
+    position: absolute;
+    left: 50px;
+    width: 50px;
+    background: #ffd4d3;
+    height: 100%;
+  }
+  .slider .bar .lp span{
+      position:relative;
+      left:-30px;
+  }
+  .slider .bar .rp span{
+      position:relative;
+      left:10px;
+  }
+  .slider .bar .lp,.slider .bar .rp{
+    cursor:pointer;
+    background:#ffd4d3;
+    width:25px;
+    height: 25px;
+    border-radius:100%;
+    position:absolute;
+}
+  .slider .bar .lp{
+    left:0px;
+    top:-10px;
+  }
+  .slider .bar .rp{
+    left:100%;
+    top: -10px;
+  }
+/* ползунок END */
+
+/* booling */
+
+  .product-booling__list{
+    width: 40px;
+    height: 35px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  .product-booling__list:hover, .product-booling__list:active, .product-booling__list:focus{
+    background:  #ffd4d3; 
+    color: #000;
+  }
+  .product-booling__list a{
+      color: #000;
+  }
+  .product-booling__list a:hover{
+    color: #000;
+}
+
+  /* booling END */
+

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+    <html lang=ru>
+        <head>
+            <meta charset=UTF-8>
+            <meta name=viewport content="width=device-width, initial-scale=1">
+            <title>Магазин - Магазин и школа маникюра "Nail Persona"</title>
+            <meta name=description content="Persona">
+            <meta name=keywords content="">
+            <link rel=icon href="#" type=image/x-icon>
+            <link rel="shortcut icon" href="#" type=image/x-icon>
+            <meta property=og:title content="">
+            <meta property=og:description content="">
+            <meta property=og:type content="">
+            <meta property=og:image content="">
+            <meta property=og:site_name content="">
+            <link rel=stylesheet href="css/bootstrap-reboot.min.css">
+            <link rel=stylesheet href="css/bootstrap.min.css">
+            <link rel=stylesheet href=css/slick/slick.css>
+            <link rel=stylesheet href=css/slick/slick-theme.css>
+            <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+            <link rel="stylesheet" href="css/personal-area.css">
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <body>
+            <header class="header" id=header>
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-2 col-md-3 d-lg-none">
+                            <button class="menu-open">
+                                <img src="img/gamb.png">
+                            </button>
+                        </div>
+                        <div class="col-lg-3 col-md-5 col-8">
+                            <a href=index.html class="home logo">
+                                <img src=img/logo.png class="logo img-adaptiv" alt="logo Persona">
+                            </a>
+                        </div>
+                        <div class="col-lg-5  m-auto d-none d-lg-block">
+                            <nav>
+                                <ul class="menu d-flex">
+                                <li class="menu__item">
+                                   <a href="index.html">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>
+                                        О нас
+                                    </a>
+                                 </li>
+                                <li class="menu__item">
+                                    <a href=#>Галерея</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>
+                                        Школа
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>
+                                        Контакты
+                                    </a>
+                                </li>
+                                </ul>
+                            </nav>
+                            </div>
+                        <div class="col-lg-2 col-md-4 col-2 m-auto m-md-0 ">
+                            <div class="heder_icon d-flex justify-content-md-end">
+                                <a href="#" id="comparison" class="comparison"> <img src=img/comparison.png class=img-adaptiv alt="Comparison Persona"></a>
+                                <a href="#" id="preferences" class="preferences"> <img src=img/preferences.png class=img-adaptiv alt="Comparison Persona"></a>
+                                <a href="#" id="authorizaciy" class="authorizaciy"> <img src=img/authorization.png class=img-adaptiv alt="Comparison Persona"></a>
+                                <a href="#" id="search" class="search"><img src=img/search.png class=img-adaptiv alt="Comparison Persona"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main id=main role=main>
+                <section class="shop" id="shop">
+                    <div class="container-fluid container-fluid_sm">
+                        <div class="row m-0">
+                            <div class="col-lg-2">
+                                    <aside class="personal-area-aside d-none d-lg-block" id="personal-area-aside">
+                                        <div class="personal-area-aside-menu" id="personal-area-aside-menu">
+                                            <a  href="#" class="personal-area-aside__link personal-area-aside__link_catalog catalolg-btn">Каталог товаров</a>
+                                            <a href="#" class="personal-area-aside__link personal-area-aside__link_area">Мой кабинет</a>
+                                            <a href="#" class="personal-area-aside__link personal-area-aside__link_personal-data ">Личные данные</a>
+                                            <a  href="#" class="personal-area-aside__link personal-area-aside__link_basket basket-btn">Корзина</a>
+                                            <a href="#" class="personal-area-aside__link personal-area-aside__link_orders">Мои заказы</a>
+                                            <a href="#" class="personal-area-aside__link personal-area-aside__link_output ">Выход</a>
+                                        </div>
+                                    </aside>
+                            </div>
+                            <div class="col-lg-9 col-12 p-0">
+                                <div id="forms" class="displey_none">
+                                    <h2>Личные данные</h2>
+                                        <form action="" class="js-form" id="popupResult">
+                                            <div class="form-group">
+                                                <label for="data"></label>
+                                                <div class="name d-flex justify-content-between">
+                                                    <p>Имя</p>
+                                                    <span class="name__data">Васёк</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="data"></label>
+                                                <div class="email d-flex justify-content-between">
+                                                    <p>Электронная почта</p>
+                                                    <span class="email__data">sdfdsfds@cvxvx.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="data"></label>
+                                                <div class="tongue d-flex justify-content-between">
+                                                    <p>Электронная почта</p>
+                                                    <span class="tongue__data">sdfdsfds@cvxvx.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="data"></label>
+                                                <div class="floor d-flex justify-content-between">
+                                                    <p>Электронная почта</p>
+                                                    <span class="floor__data">sdfdsfds@cvxvx.com</span>
+                                                </div>
+                                            </div>
+                                            <button class="btn-form" data-submit>Удалить аккаунт</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- Modal menu-->
+            <div style="display: none;">
+                    <div class="box-modal" id="catalog-product">
+                            <div class="box-modal_close arcticmodal-close">x</div>
+                                <div class="manicure-products d-flex">
+                                                <ul class="manicure-products__menu ">
+                                                    <li class="manicure-products__list d-flex">
+                                                        <!-- <a href="#" class=" aside-menu__link manicure-products__link">Товары для маникюра</a> -->
+                                                        <div class="drop-down__list t1">
+                                                            <div class="d-flex">
+                                                            <div class="mr-4">
+                                                                <ul >
+                                                                <li class="drop-down__list_item">
+                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                            Краска
+                                                                    </a>
+                                                                </li>
+                                                                <li class="drop-down__list_item">
+                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                        Лаки 
+                                                                    </a>
+                                                                </li>
+                                                                <li class="drop-down__list_item">
+                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                        Краска
+                                                                    </a>
+                                                                </li>
+                                                                <li class="drop-down__list_item">
+                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                        Лаки 
+                                                                    </a>
+                                                                </li>
+                                                                <li class="drop-down__list_item">
+                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                        Длинная хрерь
+                                                                    </a>
+                                                                </li>
+                                                                <li class="drop-down__list_item">
+                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                                Краска
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="drop-down__list_item">
+                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                            Лаки 
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="drop-down__list_item">
+                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                            Краска
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="drop-down__list_item">
+                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                            Лаки 
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="drop-down__list_item">
+                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                            Длинная хрерь
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                    Краска
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Лаки 
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Краска
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Лаки 
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Длинная хрерь
+                                                                            </a>
+                                                                        </li>
+                                                                        <ul>
+                                                                                <li class="drop-down__list_item">
+                                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                                            Лаки 
+                                                                                        </a>
+                                                                                    </li>
+                                                                                    <li class="drop-down__list_item">
+                                                                                        <a href="#" class="manicure-products__link cat_1">
+                                                                                            Длинная хрерь
+                                                                                        </a>
+                                                                                    </li> 
+                                                                        </ul>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="mr-4">
+                                                                    <ul>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                    Краска
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Лаки 
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Краска
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Лаки 
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Длинная хрерь
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                        Краска
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Лаки 
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Краска
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Лаки 
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Длинная хрерь
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                            Краска
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Лаки 
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Краска
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Лаки 
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Длинная хрерь
+                                                                                    </a>
+                                                                                </li>
+                                                                                <ul>
+                                                                                        <li class="drop-down__list_item">
+                                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                                    Лаки 
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="drop-down__list_item">
+                                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                                    Длинная хрерь
+                                                                                                </a>
+                                                                                            </li> 
+                                                                                </ul>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="mr-4">
+                                                                    <ul>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                    Краска
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Лаки 
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Краска
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Лаки 
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                            <a href="#" class="manicure-products__link cat_1">
+                                                                                Длинная хрерь
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                        Краска
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Лаки 
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Краска
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Лаки 
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                    Длинная хрерь
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                            Краска
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Лаки 
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Краска
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Лаки 
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="drop-down__list_item">
+                                                                                    <a href="#" class="manicure-products__link cat_1">
+                                                                                        Длинная хрерь
+                                                                                    </a>
+                                                                                </li>
+                                                                                <ul>
+                                                                                        <li class="drop-down__list_item">
+                                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                                    Лаки 
+                                                                                                </a>
+                                                                                            </li>
+                                                                                            <li class="drop-down__list_item">
+                                                                                                <a href="#" class="manicure-products__link cat_1">
+                                                                                                    Длинная хрерь
+                                                                                                </a>
+                                                                                            </li> 
+                                                                                </ul>
+                                                                    </ul>
+                                                            </div>
+                                                            </div>
+                                                        </div>                      
+                                                    </li>
+                                                    
+                                                                                  
+                                                    
+                                                </ul>
+                                </div>
+                    </div>
+                    </div>
+                </div>
+            <!-- Modal menu END-->
+           
+            <footer class="footer" id="footer">
+                <div class="container-fluid container-fluid_sm">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="footer-help d-flex">
+                                <a href="#" class="footer-help__link">Доставка и оплата</a>
+                                <a href="#" class="footer-help__link">Гарантия</a>
+                                <a href="#" class="footer-help__link">Возврат товара</a>
+                                <a href="#" class="footer-help__link">Вопросы и ответы</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="footer-social__link d-flex">
+                                <a href="#" class="footer-social__icon"><img src="img/facebook.png" alt="facebook"></a>
+                                <a href="#" class="footer-social__icon"><img src="img/instagram.png" alt="instagram"></a>
+                                <a href="#" class="footer-social__icon"><img src="img/telegram.png" alt="telegram"></a>
+                                <a href="#" class="footer-social__icon"><img src="img/vk.png" alt="vk"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                                <div class="footer-copyrights">
+                                        <p>&copy; Интернет-магазин «Neil Persona™» 2019</p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src=js/jquery-3.3.1.min.js> </script> 
+            <script src=js/slick/slick.min.js> </script>
+            <script src=js/jquery.arcticmodal-0.3.min.js> </script>
+            <script src="js/main.js"> </script>
+        </body> 
+    </html>
