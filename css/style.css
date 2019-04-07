@@ -267,8 +267,8 @@ button:focus, button:active {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.40);
     overflow: hidden;
     text-align: center;
-    background: green;
-    border: 1px solid green;
+    background: #04a904;
+    border: 1px solid #04a904;
     border-radius: 3px;
     font-size: 12px;
     padding: 3px;
@@ -442,6 +442,15 @@ button:focus, button:active {
     }
     .preferences-red{
     margin-left: 30%;
+    }
+    .card-product__title{
+        text-align: center;
+    }
+    .media{
+
+    }
+    .rating_block{
+        margin-left: 5px;
     }
 }
 
