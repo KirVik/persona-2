@@ -80,6 +80,12 @@ $(function (){
   });
   // Модальные окна (Регистрации) END
 
+  // Модальное окно (Корзины)
+  $('.basket-btn').click(function () {
+    $('#basket').arcticmodal();
+});
+// Модальные окна (Регистрации) END
+
     // открытие личного кабинета
     $('.personal-area-aside__link_personal-data').click(function () {
         $('.displey_none').toggleClass('displey_bl');

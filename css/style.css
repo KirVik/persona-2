@@ -31,6 +31,10 @@ h6{
     font-size: 11px;
     font-weight: bold;
 }
+p{
+    padding: 0;
+    margin: 0;
+}
 a{
     color: #000;
     text-decoration: none;
@@ -167,7 +171,7 @@ margin-bottom: 15px;
 .aside-cabinet p{
     
 }
-.btn-cabinet, .registracion, .check-in__btn, .btn-delete{
+.btn-cabinet, .registracion, .check-in__btn, .btn-delete, .btn__checkout{
     font-weight: bold;
     padding: 8px 3px;
     background: #ffd4d3;
@@ -181,7 +185,12 @@ margin-bottom: 15px;
     background: none;
     margin-top: 12px;
 }
-.btn-cabinet:hover,.check-in__btn:hover, .btn-delete:hover{
+.btn-cabinet:hover,
+.check-in__btn:hover, 
+.btn-delete:hover, 
+.btn__checkout:hover,
+.btn__minus:hover, 
+.btn__plus:hover{
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
@@ -496,7 +505,12 @@ button:focus, button:active {
 
 /*modal basket*/
 #basket{
-
+    right: 12%;
+    top: 135px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
+.basket__close{
+    right: 1%;
 }
 .basket__blokc{
     border: 4px solid #ffd4d3;
@@ -504,17 +518,34 @@ button:focus, button:active {
     text-align: center;
     padding: 10px;
 }
+.title__product{
+    margin: 0 30px;
+    text-transform: none;
+    
+}
 input.product__check{
-    margin-right: 5px;
+   
     border: 4px solid #000;
     background: none;
     width: 20px;
     height: 20px;
 }
 .quantity{
-    margin-right: 5px;
+    margin: 0 25px;
     font-size: 15px;
 }
+.btn__minus, .btn__plus{
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+    
+}
+.btn__plus{
+    margin-right: 50px;
+}
+
 .counter-sum{
     border: 1px solid #000;
     border-radius: 2px;
@@ -523,6 +554,26 @@ input.product__check{
     height: 20px;
     display: block;
     margin: 0 4px;
+}
+.total-blokc{
+    width: 23%;
+    margin-left: auto;
+    padding: 5px 10px;
+    justify-content: space-between;
+    background: #ffd4d3;
+}
+.total-blokc__text{
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.basket-btn_wrap{
+text-align: right;
+}
+.btn__checkout{
+    width: 100%;
+    background: #0ccc30;
+    margin-top: 15px;
+    border-radius: 8px;
 }
 
 /*modal basket END*/
@@ -595,6 +646,25 @@ input.product__check{
     }
     .rating_block{
         margin-left: 5px;
+    }
+    #basket{
+        right: 5%;
+        width: 90%
+    }
+    .basket__list_item{
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 4px solid #ffd4d3;
+        padding-bottom: 5px;
+    }
+    .basket__counter{
+        text-align: center;
+    }
+    .btn__plus {
+        margin-right: 0px;
+    }
+    .total-blokc{
+        width: 100%;
     }
 }
 
