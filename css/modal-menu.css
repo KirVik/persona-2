@@ -17,9 +17,15 @@
 .manicure-products__list_item {
     margin-bottom: 10px;
 } */
-
+.drop-down__list{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
 .manicure-products__link{
     font-size: 14px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
 }
 .box-modal {
     position: absolute;
