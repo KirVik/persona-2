@@ -481,9 +481,9 @@ button:focus, button:active {
 }
 .center{
     margin-top: 10px;
-  position: absolute
-  top: calc(50% - 10px)
-  left: calc(50% - 20px)
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 20px);
 }
 /*Переключатель правил END*/
 .forms__check-in_close{
