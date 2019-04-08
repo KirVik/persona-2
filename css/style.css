@@ -54,7 +54,10 @@ li, ul {
     box-shadow: none
 }
 a, button, button:active, button:focus, button:hover, input, input:active, input:focus, input:hover {
-    outline: 0
+    outline: 0;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    
 }
 .img-adaptiv {
     width: 100%;
