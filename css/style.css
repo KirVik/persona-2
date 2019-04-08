@@ -494,6 +494,39 @@ button:focus, button:active {
 }
 /*modal "#forms__check-in" END*/
 
+/*modal basket*/
+#basket{
+
+}
+.basket__blokc{
+    border: 4px solid #ffd4d3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+input.product__check{
+    margin-right: 5px;
+    border: 4px solid #000;
+    background: none;
+    width: 20px;
+    height: 20px;
+}
+.quantity{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.counter-sum{
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 4px;
+}
+
+/*modal basket END*/
+
 /* modal end*/
 
 @media screen and (max-width:1200px) {
