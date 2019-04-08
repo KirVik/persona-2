@@ -83,7 +83,7 @@
                                     <aside class="personal-area-aside d-none d-lg-block" id="personal-area-aside">
                                         <div class="personal-area-aside-menu" id="personal-area-aside-menu">
                                             <a  href="#" class="personal-area-aside__link personal-area-aside__link_catalog catalolg-btn">Каталог товаров</a>
-                                            <a href="#" class="personal-area-aside__link personal-area-aside__link_area">Мой кабинет</a>
+                                            <h2>Мой кабинет</h2>
                                             <a href="#" class="personal-area-aside__link personal-area-aside__link_personal-data ">Личные данные</a>
                                             <a  href="#" class="personal-area-aside__link personal-area-aside__link_basket basket-btn">Корзина</a>
                                             <a href="#" class="personal-area-aside__link personal-area-aside__link_orders">Мои заказы</a>
@@ -91,10 +91,18 @@
                                         </div>
                                     </aside>
                             </div>
-                            <div class="col-lg-9 col-12 p-0">
+                            <div class="col-lg-9 col-12">
                                 <div id="forms" class="displey_none">
                                     <h2>Личные данные</h2>
-                                        <form action="" class="js-form" id="popupResult">
+                                        <form action="" class="" id="">
+                                            
+                                                <div class="form-group">
+                                                        <label for="data"></label>
+                                                        <div class="login-name d-flex justify-content-between">
+                                                            <p>Логин</p>
+                                                            <span class="login-name__data">Васёк</span>
+                                                        </div>
+                                                    </div>
                                             <div class="form-group">
                                                 <label for="data"></label>
                                                 <div class="name d-flex justify-content-between">
@@ -111,19 +119,35 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="data"></label>
-                                                <div class="tongue d-flex justify-content-between">
-                                                    <p>Электронная почта</p>
-                                                    <span class="tongue__data">sdfdsfds@cvxvx.com</span>
+                                                <div class="tel-namber d-flex justify-content-between">
+                                                    <p>Номер телефона</p>
+                                                    <span class="tel-namber__data">+380500000000</span>
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label for="data"></label>
                                                 <div class="floor d-flex justify-content-between">
-                                                    <p>Электронная почта</p>
-                                                    <span class="floor__data">sdfdsfds@cvxvx.com</span>
+                                                    <p>Пол</p>
+                                                    <div class="input__radio">
+                                                    <input type="radio" value="man">Мужской
+                                                    <input type="radio" value="woomen">Женский
+                                                </div>
                                                 </div>
                                             </div>
-                                            <button class="btn-form" data-submit>Удалить аккаунт</button>
+                                            <div class="form-group">
+                                                    <label for="data"></label>
+                                                    <div class="floor d-flex justify-content-between">
+                                                        <p>Язык</p>
+                                                        <div class="input__radio">
+                                                        <input type="radio" value="ru">Русский
+                                                        <input type="radio" value="eng">Англиский
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <button class="btn-delete ">Удалить аккаунт</button>                                                  </div>
+                                                    </div>
+                                            
                                         </form>
                                     </div>
                                 </div>

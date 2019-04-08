@@ -1407,7 +1407,7 @@
                 </div>
             </div>
             <div style="display: none;">
-            <div class="box-modal" id="authorization">
+                <div class="box-modal" id="authorization">
                     <div class="box-modal_close arcticmodal-close">x</div>
                         <header>
                             <div class="d-flex mb-3">
@@ -1435,6 +1435,41 @@
                     </div>
                 </div>
             </div>
+            <!-- Регистрация -->
+            <div style="display: none;">
+                <div class="box-modal" id="forms__check-in">
+                        <div class="box-modal_close arcticmodal-close forms__check-in_close">x</div>
+                        <div id="check-in" class="check-in">
+                            <h2 class="check-in__title">Регистрация</h2>
+                                    <form action="" class="form__check-in" id="form__check-in">
+                                    <div class="form-group">
+                                        <label for="login"></label>
+                                        <input type="text" name="name" placeholder="Введите имя" class="login" id="login">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email"></label>
+                                        <input type="text" name="email" placeholder="Введите E-mail" class="email" id="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwords"></label>
+                                        <input type="password" name="password" placeholder="Пороль" class="passwords" id="passwords">
+                                        <label for="passwords-repeat"></label>
+                                        <input type="password" name="password" placeholder="Повторный пороль" class="passwords-repeat" id="passwords-repeat">
+                                    </div>
+                                    <!--Переключатель правил-->
+                                    <div class="center d-flex">
+                                        <p>Согласен с правилами</p>
+                                        <input type="checkbox" id="cbx" style="display:none"/>
+                                        <label for="cbx" class="toggle"><span></span></label>    
+                                      </div>
+                                    <!--Переключатель правил END-->
+                                    <button class="check-in__btn">Зарегистрироваться</button>
+                    
+                                </form>
+                        </div>
+                </div>
+            </div>
+           
             <footer class=footer id=footer>
                
             </footer>

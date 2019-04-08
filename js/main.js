@@ -74,8 +74,14 @@ $(function (){
     });
     // Модальные окна (Авторизация) END
 
+    // Модальные окна (Регистрации)
+    $('.registracion').click(function () {
+      $('#forms__check-in').arcticmodal();
+  });
+  // Модальные окна (Регистрации) END
+
     // открытие личного кабинета
-    $('.personal-area-aside__link_area').click(function () {
+    $('.personal-area-aside__link_personal-data').click(function () {
         $('.displey_none').toggleClass('displey_bl');
     });
 // открытие личного кабинета END

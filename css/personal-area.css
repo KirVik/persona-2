@@ -1,6 +1,10 @@
 .personal-area-aside{
    
 }
+.personal-area-aside-menu h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
 .personal-area-aside__link{
     display: block;
     margin-bottom: 30px;
@@ -24,6 +28,15 @@
 }
 .displey_bl{
     display: block;
+}
+.input__radio input{
+    margin-right: 10px;
+}
+.btn-delete{
+    width: 140px!important;
+}
+.form-group{
+    margin-bottom: 0;
 }
 .footer{
     padding: 10px 0;

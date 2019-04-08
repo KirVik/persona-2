@@ -167,7 +167,7 @@ margin-bottom: 15px;
 .aside-cabinet p{
     
 }
-.btn-cabinet, .registracion{
+.btn-cabinet, .registracion, .check-in__btn, .btn-delete{
     font-weight: bold;
     padding: 8px 3px;
     background: #ffd4d3;
@@ -181,7 +181,7 @@ margin-bottom: 15px;
     background: none;
     margin-top: 12px;
 }
-.btn-cabinet:hover{
+.btn-cabinet:hover,.check-in__btn:hover, .btn-delete:hover{
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
     -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
@@ -391,6 +391,109 @@ button:focus, button:active {
     left: 25%;
 }
 /* modal "#catalog-product" END*/
+
+/*modal #forms__check-in*/
+
+#forms__check-in{
+    left: 50%;
+}
+.check-in__title{
+    border-bottom: 4px solid #ffd4d3;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#forms__check-in .form-group{
+    margin-bottom: 0;
+}
+#forms__check-in input{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/*Переключатель правил*/
+.toggle{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0,0,0);
+}
+  .toggle:before{
+    content: "";
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 34px;
+    height: 14px;
+    display: block;
+    background: rgb(3, 250, 44);
+    border-radius: 8px;
+    transition: background .2s ease;
+  }
+    .toggle span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #ffd4d3;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(rgb(3, 247, 3),.5);
+    transition: all .2s ease;
+    }
+    .toggle span:before{
+      content: "";
+      position: absolute;
+      display: block;
+      margin: -18px;
+      width: 56px;
+      height: 56px;
+      background: rgba(rgb(0, 255, 42),.5);
+      border-radius: 50%;
+      transform: scale(0);
+      opacity: 1;
+      pointer-events: none;
+    }
+/* #cbx:checked + .toggle */
+#cbx:checked + .toggle:before{
+    background:(rgb(1, 66, 12),.5);
+}
+#cbx:checked + .toggle span{
+    background: (rgb(1, 66, 12),.5);
+    transform: translateX(20px);
+    transition: all .2s cubic-bezier(.8,.4,.3,1.25), background .15s ease;
+    box-shadow: 0 3px 8px rgba(rgb(1, 66, 12),.5);
+}
+#cbx:checked + .toggle span:before{
+      transform: scale(1);
+      opacity: 0;
+      transition: all .4s ease;
+}
+/*centering toggle*/
+.center p{
+    font-size: 10px;
+    margin-right: 5px;
+}
+.center{
+    margin-top: 10px;
+  position: absolute
+  top: calc(50% - 10px)
+  left: calc(50% - 20px)
+}
+/*Переключатель правил END*/
+.forms__check-in_close{
+    right: 10px;
+}
+.check-in__btn{
+    width: 100%;
+}
+/*modal "#forms__check-in" END*/
+
 /* modal end*/
 
 @media screen and (max-width:1200px) {
